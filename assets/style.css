@@ -1,7 +1,8 @@
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Courier New, sans-serif;
+    
   }
 
   .section {
@@ -10,23 +11,35 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 1rem;
-    color: white;
+    color: rgb(0, 0, 0);
     
   }
-  
+  #icon{
+    padding: 10px;
+    height: 75px;
+  }
   #intro {
-    background-color: rgb(56, 53, 53);  }
+    background-color:#F1EFE7;
+    flex-direction: row;
+
+      }
   
   #projects {
-    background-color: rgb(56, 53, 53);  }
+    background-color:#F1EFE7
+    ;  }
   
   #contact {
-    background-color: rgb(56, 53, 53);  }
+    background-color:#F1EFE7
+    ;  }
   
   .hidden {
     opacity: 0;
     transform: translateX(20%);
     transition: opacity 1s, transform 1.5s;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
   
   .visible {
@@ -45,7 +58,8 @@ body {
     padding-top: 10px;
     align-items: center;
     justify-content: center;
-    background-color: rgb(56, 53, 53);
+    background-color:#F1EFE7
+    ;
     
 }
 .navbar li{
@@ -73,7 +87,7 @@ body {
 
 .navbar li a{
   text-decoration: none;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
 
 }
 .navbar *{
