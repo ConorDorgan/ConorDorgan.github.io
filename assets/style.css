@@ -1,10 +1,23 @@
-
+/* *{
+  border: 1px solid;
+} */
 body {
     margin: 0;
     font-family: Courier New, sans-serif;
     
   }
-
+  .zenqueintro *{
+    margin: 0;
+    padding: 0;
+  }
+  .zenqueintro p{
+    letter-spacing: 3px;
+  }
+  .zenqueintro h1{
+    
+    font-weight: 100;
+    letter-spacing: 3px;
+  }
   .section {
     height: 80vh;
     display: flex;
@@ -79,7 +92,7 @@ body {
   padding: 5px;
   height: 30px;
   width: 100px;
-  border:3px solid white;
+  border:2px solid black;
   align-items: center;
   justify-content: center;
   color: rgb(56, 53, 53);
