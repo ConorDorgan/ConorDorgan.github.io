@@ -11,7 +11,7 @@ body {
     padding: 0;
   }
   .zenqueintro p{
-    letter-spacing: 3px;
+    letter-spacing: 4px;
   }
   .zenqueintro h1{
     
@@ -80,7 +80,7 @@ body {
   border-radius: 6px;
   padding: 5px;
   height: 30px;
-  width: 100px;
+  width: 120px;
   border:1px solid transparent;
   align-items: center;
   justify-content: center;
